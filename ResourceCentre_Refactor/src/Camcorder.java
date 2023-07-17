@@ -12,9 +12,9 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-		String output = "Asset Tag: " + getAssetTag() + "\n";
-	    output += "Description: " + getDescription() + "\n";
-	    output += "Optical Zoom: " + opticalZoom + "\n";
+		// Write your codes here
+		String output = super.toString();
+		output = String.format("%-63s %-20d", output,opticalZoom);
 		return output;
 	}
 }
