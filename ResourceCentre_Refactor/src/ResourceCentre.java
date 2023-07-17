@@ -66,7 +66,6 @@ public class ResourceCentre {
 				} else {
 					System.out.println("Invalid type");
 				}
-
 			} else if (option == 4) {
 				// Return item
 				ResourceCentre.setHeader("RETURN");				
